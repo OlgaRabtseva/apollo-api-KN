@@ -1,0 +1,60 @@
+{
+  "uid" : "fe31c743a341ca4f",
+  "name" : "authorizationTes",
+  "fullName" : "RestTest.authorizationTes",
+  "historyId" : "258d6d1c7e6d980caab70147de3dcb60",
+  "time" : {
+    "start" : 1675420175654,
+    "stop" : 1675420186483,
+    "duration" : 10829
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "RestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authorizationTes"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite",
+    "value" : "Gradle test"
+  }, {
+    "name" : "subSuite",
+    "value" : "RestTest"
+  }, {
+    "name" : "host",
+    "value" : "HEL01558"
+  }, {
+    "name" : "thread",
+    "value" : "16512@HEL01558.Test worker(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe31c743a341ca4f.json",
+  "parameterValues" : [ ]
+}

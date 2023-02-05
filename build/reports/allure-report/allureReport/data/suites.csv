@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Feb 04 17:21:48 GET 2023","Sat Feb 04 17:21:57 GET 2023","9464","Gradle suite","Gradle test","RestTest","RestTest","getBooksTest","getBooksTest",""
+"failed","Sat Feb 04 18:42:29 GET 2023","Sat Feb 04 18:42:29 GET 2023","0","Gradle suite","Gradle test","collectiontest.RestTest","collectiontest.RestTest","deleteUser","deleteUser",""
+"failed","Sat Feb 04 18:42:25 GET 2023","Sat Feb 04 18:42:28 GET 2023","3484","Gradle suite","Gradle test","collectiontest.RestTest","collectiontest.RestTest","getBooksTest","getBooksTest",""
+"failed","Sat Feb 04 16:58:57 GET 2023","Sat Feb 04 16:58:57 GET 2023","1","Gradle suite","Gradle test","RestTest","RestTest","deleteUser","deleteUser",""
+"failed","Fri Feb 03 14:30:56 GET 2023","Fri Feb 03 14:31:02 GET 2023","5771","Gradle suite","Gradle test","RestTest","RestTest","authorizationTes","authorizationTes",""

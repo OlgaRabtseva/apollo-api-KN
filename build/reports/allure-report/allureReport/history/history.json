@@ -1,0 +1,101 @@
+{
+  "e4251af7bbc48b2620233be4268eace0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "443420efa215423",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <204>.\n",
+      "time" : {
+        "start" : 1675515537849,
+        "stop" : 1675515537850,
+        "duration" : 1
+      }
+    } ]
+  },
+  "258d6d1c7e6d980caab70147de3dcb60" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "107365aa8fe0a163",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <200>.\n",
+      "time" : {
+        "start" : 1675420256706,
+        "stop" : 1675420262477,
+        "duration" : 5771
+      }
+    } ]
+  },
+  "4e18c480cb8ee001e033869073c670d7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd508186f36b8d88",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <400>.\n",
+      "time" : {
+        "start" : 1675521745380,
+        "stop" : 1675521748864,
+        "duration" : 3484
+      }
+    } ]
+  },
+  "551f3a4b1b2e7f8fb582c13907ce26b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ddd69e64fb59c3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1675516908232,
+        "stop" : 1675516917696,
+        "duration" : 9464
+      }
+    } ]
+  },
+  "ee0685d4cc67b1b3fdee96f07fe36815" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "912c476b36da02fa",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <204> but was <400>.\n",
+      "time" : {
+        "start" : 1675521749324,
+        "stop" : 1675521749324,
+        "duration" : 0
+      }
+    } ]
+  }
+}

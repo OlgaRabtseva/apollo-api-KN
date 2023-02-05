@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class apitests.CollectionsTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class apitests.CollectionsTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/apitests.html">apitests</a> &gt; CollectionsTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.080s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">addBookToCollectionTest</td>
+<td class="success">2.080s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>HTTP/1.1 201 Created
+Server: nginx/1.17.10 (Ubuntu)
+Date: Sun, 05 Feb 2023 12:12:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 85
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/&quot;55-34NkL5F+gv9l+5UowP7wZL7Lid8&quot;
+
+{
+    &quot;userID&quot;: &quot;bbb935e0-c3b0-4514-943b-f0b42bf98128&quot;,
+    &quot;username&quot;: &quot;User0824900&quot;,
+    &quot;books&quot;: [
+        
+    ]
+}
+************* UserID bbb935e0-c3b0-4514-943b-f0b42bf98128
+HTTP/1.1 200 OK
+Server: nginx/1.17.10 (Ubuntu)
+Date: Sun, 05 Feb 2023 12:12:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 277
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/&quot;115-5ml5DseN3S5mV0QhpPlLQTbqQo8&quot;
+
+{
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IlVzZXIwODI0OTAwIiwicGFzc3dvcmQiOiJiQkc1eHNIISIsImlhdCI6MTY3NTU5OTE1Mn0.OMlkGqkzGs2zC3P8H53j0tBgRrc2I2YncWNZw3cyvG8&quot;,
+    &quot;expires&quot;: &quot;2023-02-12T12:12:32.987Z&quot;,
+    &quot;status&quot;: &quot;Success&quot;,
+    &quot;result&quot;: &quot;User authorized successfully.&quot;
+}
+************* token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IlVzZXIwODI0OTAwIiwicGFzc3dvcmQiOiJiQkc1eHNIISIsImlhdCI6MTY3NTU5OTE1Mn0.OMlkGqkzGs2zC3P8H53j0tBgRrc2I2YncWNZw3cyvG8
+HTTP/1.1 200 OK
+Server: nginx/1.17.10 (Ubuntu)
+Date: Sun, 05 Feb 2023 12:12:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 4514
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/&quot;11a2-8zfX++QwcgaCjSU6F8JP9fUd1tY&quot;
+
+{
+    &quot;books&quot;: [
+        {
+            &quot;isbn&quot;: &quot;9781449325862&quot;,
+            &quot;title&quot;: &quot;Git Pocket Guide&quot;,
+            &quot;subTitle&quot;: &quot;A Working Introduction&quot;,
+            &quot;author&quot;: &quot;Richard E. Silverman&quot;,
+            &quot;publish_date&quot;: &quot;2020-06-04T08:48:39.000Z&quot;,
+            &quot;publisher&quot;: &quot;O'Reilly Media&quot;,
+            &quot;pages&quot;: 234,
+            &quot;description&quot;: &quot;This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp&quot;,
+            &quot;website&quot;: &quot;http://chimera.labs.oreilly.com/books/1230000000561/index.html&quot;
+        },
+        {
+            &quot;isbn&quot;: &quot;9781449331818&quot;,
+            &quot;title&quot;: &quot;Learning JavaScript Design Patterns&quot;,
+            &quot;subTitle&quot;: &quot;A JavaScript and jQuery Developer's Guide&quot;,
+            &quot;author&quot;: &quot;Addy Osmani&quot;,
+            &quot;publish_date&quot;: &quot;2020-06-04T09:11:40.000Z&quot;,
+            &quot;publisher&quot;: &quot;O'Reilly Media&quot;,
+            &quot;pages&quot;: 254,
+            &quot;description&quot;: &quot;With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da&quot;,
+            &quot;website&quot;: &quot;http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/&quot;
+        },
+        {
+            &quot;isbn&quot;: &quot;9781449337711&quot;,
+            &quot;title&quot;: &quot;Designing Evolvable Web APIs with ASP.NET&quot;,
+            &quot;subTitle&quot;: &quot;Harnessing the Power of the Web&quot;,
+            &quot;author&quot;: &quot;Glenn Block et al.&quot;,
+            &quot;publish_date&quot;: &quot;2020-06-04T09:12:43.000Z&quot;,
+            &quot;publisher&quot;: &quot;O'Reilly Media&quot;,
+            &quot;pages&quot;: 238,
+            &quot;description&quot;: &quot;Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft&quot;,
+            &quot;website&quot;: &quot;http://chimera.labs.oreilly.com/books/1234000001708/index.html&quot;
+        },
+        {
+            &quot;isbn&quot;: &quot;9781449365035&quot;,
+            &quot;title&quot;: &quot;Speaking JavaScript&quot;,
+            &quot;subTitle&quot;: &quot;An In-Depth Guide for Programmers&quot;,
+            &quot;author&quot;: &quot;Axel Rauschmayer&quot;,
+            &quot;publish_date&quot;: &quot;2014-02-01T00:00:00.000Z&quot;,
+            &quot;publisher&quot;: &quot;O'Reilly Media&quot;,
+            &quot;pages&quot;: 460,
+            &quot;description&quot;: &quot;Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o&quot;,
+            &quot;website&quot;: &quot;http://speakingjs.com/&quot;
+        },
+        {
+            &quot;isbn&quot;: &quot;9781491904244&quot;,
+            &quot;title&quot;: &quot;You Don't Know JS&quot;,
+            &quot;subTitle&quot;: &quot;ES6 &amp; Beyond&quot;,
+            &quot;author&quot;: &quot;Kyle Simpson&quot;,
+            &quot;publish_date&quot;: &quot;2015-12-27T00:00:00.000Z&quot;,
+            &quot;publisher&quot;: &quot;O'Reilly Media&quot;,
+            &quot;pages&quot;: 278,
+            &quot;description&quot;: &quot;No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \\\&quot;You Don’t Know JS\\\&quot; series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st&quot;,
+            &quot;website&quot;: &quot;https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&amp;%20beyond&quot;
+        },
+        {
+            &quot;isbn&quot;: &quot;9781491950296&quot;,
+            &quot;title&quot;: &quot;Programming JavaScript Applications&quot;,
+            &quot;subTitle&quot;: &quot;Robust Web Architecture with Node, HTML5, and Modern JS Libraries&quot;,
+            &quot;author&quot;: &quot;Eric Elliott&quot;,
+            &quot;publish_date&quot;: &quot;2014-07-01T00:00:00.000Z&quot;,
+            &quot;publisher&quot;: &quot;O'Reilly Media&quot;,
+            &quot;pages&quot;: 254,
+            &quot;description&quot;: &quot;Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flex&quot;,
+            &quot;website&quot;: &quot;http://chimera.labs.oreilly.com/books/1234000000262/index.html&quot;
+        },
+        {
+            &quot;isbn&quot;: &quot;9781593275846&quot;,
+            &quot;title&quot;: &quot;Eloquent JavaScript, Second Edition&quot;,
+            &quot;subTitle&quot;: &quot;A Modern Introduction to Programming&quot;,
+            &quot;author&quot;: &quot;Marijn Haverbeke&quot;,
+            &quot;publish_date&quot;: &quot;2014-12-14T00:00:00.000Z&quot;,
+            &quot;publisher&quot;: &quot;No Starch Press&quot;,
+            &quot;pages&quot;: 472,
+            &quot;description&quot;: &quot;JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale &quot;,
+            &quot;website&quot;: &quot;http://eloquentjavascript.net/&quot;
+        },
+        {
+            &quot;isbn&quot;: &quot;9781593277574&quot;,
+            &quot;title&quot;: &quot;Understanding ECMAScript 6&quot;,
+            &quot;subTitle&quot;: &quot;The Definitive Guide for JavaScript Developers&quot;,
+            &quot;author&quot;: &quot;Nicholas C. Zakas&quot;,
+            &quot;publish_date&quot;: &quot;2016-09-03T00:00:00.000Z&quot;,
+            &quot;publisher&quot;: &quot;No Starch Press&quot;,
+            &quot;pages&quot;: 352,
+            &quot;description&quot;: &quot;ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that E&quot;,
+            &quot;website&quot;: &quot;https://leanpub.com/understandinges6/read&quot;
+        }
+    ]
+}
+************* First book ID 9781449325862
+************* req body pojos.AddBookToCollectionRequest@6649ee19
+HTTP/1.1 201 Created
+Server: nginx/1.17.10 (Ubuntu)
+Date: Sun, 05 Feb 2023 12:12:34 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/&quot;24-2U7DK3nFgERO/LjA8mW3SiqYyFc&quot;
+
+{
+    &quot;books&quot;: [
+        {
+            &quot;isbn&quot;: &quot;9781449325862&quot;
+        }
+    ]
+}
+************* Book added to collection 9781449325862
+************* token still alive eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IlVzZXIwODI0OTAwIiwicGFzc3dvcmQiOiJiQkc1eHNIISIsImlhdCI6MTY3NTU5OTE1Mn0.OMlkGqkzGs2zC3P8H53j0tBgRrc2I2YncWNZw3cyvG8
+HTTP/1.1 200 OK
+Server: nginx/1.17.10 (Ubuntu)
+Date: Sun, 05 Feb 2023 12:12:35 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 634
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/&quot;27a-smXME9MdV/hgtKl8ZeH9p7a5t/o&quot;
+
+{
+    &quot;userId&quot;: &quot;bbb935e0-c3b0-4514-943b-f0b42bf98128&quot;,
+    &quot;username&quot;: &quot;User0824900&quot;,
+    &quot;books&quot;: [
+        {
+            &quot;isbn&quot;: &quot;9781449325862&quot;,
+            &quot;title&quot;: &quot;Git Pocket Guide&quot;,
+            &quot;subTitle&quot;: &quot;A Working Introduction&quot;,
+            &quot;author&quot;: &quot;Richard E. Silverman&quot;,
+            &quot;publish_date&quot;: &quot;2020-06-04T08:48:39.000Z&quot;,
+            &quot;publisher&quot;: &quot;O'Reilly Media&quot;,
+            &quot;pages&quot;: 234,
+            &quot;description&quot;: &quot;This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp&quot;,
+            &quot;website&quot;: &quot;http://chimera.labs.oreilly.com/books/1230000000561/index.html&quot;
+        }
+    ]
+}
+************* AuthorizedUser collection 9781449325862
+************* token before Delete eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IlVzZXIwODI0OTAwIiwicGFzc3dvcmQiOiJiQkc1eHNIISIsImlhdCI6MTY3NTU5OTE1Mn0.OMlkGqkzGs2zC3P8H53j0tBgRrc2I2YncWNZw3cyvG8
+************* userId before Delete bbb935e0-c3b0-4514-943b-f0b42bf98128
+HTTP/1.1 204 No Content
+Server: nginx/1.17.10 (Ubuntu)
+Date: Sun, 05 Feb 2023 12:12:35 GMT
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/&quot;58-9SJE6e4qQB4tyJeyhPu7iRdm3q8&quot;
+remove done
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Feb 05, 2023 4:12:48 PM org.aspectj.weaver.tools.Jdk14Trace error
+SEVERE: org/codehaus/groovy/runtime/callsite/AbstractCallSite
+java.lang.RuntimeException: bad non-abstract method with no code: void org.codehaus.groovy.runtime.callsite.AbstractCallSite.&lt;init&gt;(org.codehaus.groovy.runtime.callsite.CallSiteArray, int, java.lang.String) on public class org.codehaus.groovy.runtime.callsite.AbstractCallSite
+	at org.aspectj.weaver.bcel.LazyMethodGen.&lt;init&gt;(LazyMethodGen.java:223)
+	at org.aspectj.weaver.bcel.LazyClassGen.&lt;init&gt;(LazyClassGen.java:362)
+	at org.aspectj.weaver.bcel.BcelObjectType.getLazyClassGen(BcelObjectType.java:563)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1706)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveWithoutDump(BcelWeaver.java:1657)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveAndNotify(BcelWeaver.java:1422)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1196)
+	at org.aspectj.weaver.tools.WeavingAdaptor.getWovenBytes(WeavingAdaptor.java:551)
+	at org.aspectj.weaver.tools.WeavingAdaptor.weaveClass(WeavingAdaptor.java:387)
+	at org.aspectj.weaver.loadtime.Aj.preProcess(Aj.java:116)
+	at org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter.transform(ClassPreProcessorAgentAdapter.java:51)
+	at sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:428)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:635)
+	at org.codehaus.groovy.reflection.SunClassLoader.define(SunClassLoader.java:105)
+	at org.codehaus.groovy.runtime.callsite.GroovySunClassLoader.loadAbstract(GroovySunClassLoader.java:78)
+	at org.codehaus.groovy.runtime.callsite.GroovySunClassLoader.&lt;init&gt;(GroovySunClassLoader.java:59)
+	at org.codehaus.groovy.runtime.callsite.GroovySunClassLoader.&lt;init&gt;(GroovySunClassLoader.java:54)
+	at org.codehaus.groovy.runtime.callsite.GroovySunClassLoader.lambda$static$0(GroovySunClassLoader.java:40)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.codehaus.groovy.runtime.callsite.GroovySunClassLoader.doPrivileged(GroovySunClassLoader.java:50)
+	at org.codehaus.groovy.runtime.callsite.GroovySunClassLoader.&lt;clinit&gt;(GroovySunClassLoader.java:37)
+	at org.codehaus.groovy.runtime.callsite.CallSiteGenerator.isCompilable(CallSiteGenerator.java:252)
+	at org.codehaus.groovy.reflection.CachedMethod.createStaticMetaMethodSite(CachedMethod.java:302)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.createStaticMetaMethodSite(StaticMetaMethodSite.java:114)
+	at groovy.lang.MetaClassImpl.createStaticSite(MetaClassImpl.java:3593)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallStaticSite(CallSiteArray.java:72)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:159)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:21)
+	at io.restassured.config.SSLConfig.&lt;init&gt;(SSLConfig.java:201)
+	at io.restassured.config.SSLConfig.&lt;init&gt;(SSLConfig.java:193)
+	at io.restassured.config.RestAssuredConfig.&lt;init&gt;(RestAssuredConfig.java:41)
+	at io.restassured.RestAssured.&lt;clinit&gt;(RestAssured.java:422)
+	at io.restassured.builder.RequestSpecBuilder.&lt;init&gt;(RequestSpecBuilder.java:79)
+	at utils.Specifications.requestSpec(Specifications.java:10)
+	at utils.AuthorizedUser.createAuthorizedUser(AuthorizedUser.java:31)
+	at apitests.CollectionsTests.prepareUser(CollectionsTests.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+
+Feb 05, 2023 4:12:48 PM org.aspectj.weaver.tools.Jdk14Trace info
+INFO: Dumping to C:\Users\olga.riabtseva\IdeaProjects\apollo-api-kn\.\ajcore.20230205.161248.587.txt
+log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8</a> at Feb 5, 2023 4:12:57 PM</p>
+</div>
+</div>
+</body>
+</html>

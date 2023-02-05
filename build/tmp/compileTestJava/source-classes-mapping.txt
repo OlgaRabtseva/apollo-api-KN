@@ -1,0 +1,15 @@
+pojos/BooksForCollectionRequest.java
+ pojos.BooksForCollectionRequest
+pojos/Books.java
+ pojos.Books
+utils/AuthorizedUser.java
+ utils.AuthorizedUser
+utils/Specifications.java
+ utils.Specifications
+utils/Endpoint.java
+ utils.Endpoint
+pojos/AddBookToCollectionRequest.java
+ pojos.AddBookToCollectionRequest
+ pojos.AddBookToCollectionRequest$AddBookToCollectionRequestBuilder
+apitests/CollectionsTests.java
+ apitests.CollectionsTests

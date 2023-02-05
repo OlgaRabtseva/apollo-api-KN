@@ -1,0 +1,51 @@
+[ {
+  "uid" : "3ddd69e64fb59c3c",
+  "name" : "getBooksTest",
+  "time" : {
+    "start" : 1675516908232,
+    "stop" : 1675516917696,
+    "duration" : 9464
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "912c476b36da02fa",
+  "name" : "deleteUser",
+  "time" : {
+    "start" : 1675521749324,
+    "stop" : 1675521749324,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd508186f36b8d88",
+  "name" : "getBooksTest",
+  "time" : {
+    "start" : 1675521745380,
+    "stop" : 1675521748864,
+    "duration" : 3484
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "443420efa215423",
+  "name" : "deleteUser",
+  "time" : {
+    "start" : 1675515537849,
+    "stop" : 1675515537850,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "107365aa8fe0a163",
+  "name" : "authorizationTes",
+  "time" : {
+    "start" : 1675420256706,
+    "stop" : 1675420262477,
+    "duration" : 5771
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
