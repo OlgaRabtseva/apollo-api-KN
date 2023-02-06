@@ -46,6 +46,7 @@ public class CollectionsTests {
                 .collectionOfIsbns(singletonList(new BooksForCollectionRequest(firstBookIsbn)))
                 .build();
 
+        //!! there is an error in Swagger for this request - response example for 201 code has wrong Json structure
         String addedBookId = given(requestSpecWithToken(Endpoint.BOOK_STORE_BASE_URL, authorizedUser.getToken()))
                 .body(addBookReq)
                 .when().post("Books")

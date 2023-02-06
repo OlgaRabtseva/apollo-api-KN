@@ -41,8 +41,6 @@ public class AuthorizedUser {
 
         authorizedUser.setUserID(userId);
 
-        System.out.println("************* UserID " + authorizedUser.getUserID());
-
         String token = given(accountReqSpec)
                 .body(request)
                 .when().post("GenerateToken")
@@ -53,13 +51,11 @@ public class AuthorizedUser {
                 .jsonPath().getString("token");
 
         authorizedUser.setToken(token);
-        System.out.println("************* token " + authorizedUser.getToken());
         return authorizedUser;
     }
 
     public void deleteUser() {
-        System.out.println("************* token before Delete " + token);
-        System.out.println("************* userId before Delete " + userID);
+        // !! there is an error in Swagger for this request - wrong response codes for success, unauthorized and error
         given(requestSpecWithToken(Endpoint.ACCOUNT_BASE_URL, token))
                 .when().delete("User/" + userID)
                 .then().log().all()
